@@ -1,0 +1,142 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+//#include "afxres.h"
+#include "WinResrc.h"
+#define IDC_STATIC  -1
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Save",                       ID_FILE_SAVE40029
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+    POPUP "F&ont"
+    BEGIN
+        MENUITEM "&Select",                     ID_FONT_SELECT
+        POPUP "Si&ze"
+        BEGIN
+            MENUITEM "128x128",                     ID_SIZE_128X128
+            MENUITEM "256x256",                     ID_SIZE_256X256
+            MENUITEM "512x512",                     ID_SIZE_512X512
+            MENUITEM "1024x1024",                   ID_SIZE_1024X1024
+            MENUITEM "Linear",                      ID_SIZE_LINEAR
+        END
+        POPUP "&Anti-Alias"
+        BEGIN
+            MENUITEM "True",                        ID_ANTI_TRUE
+            MENUITEM "False",                       ID_ANTI_FALSE
+        END
+        POPUP "Color &Key"
+        BEGIN
+            MENUITEM "True",                        ID_COLORKEY_TRUE
+            MENUITEM "False",                       ID_COLORKEY_FALSE
+        END
+        POPUP "&Outline"
+        BEGIN
+            MENUITEM "True",                        ID_OUTLINE_TRUE
+            MENUITEM "False",                       ID_OUTLINE_FALSE
+        END
+        POPUP "Outline &Width"
+        BEGIN
+            MENUITEM "1",                           ID_OUTLINEWIDTH_1
+            MENUITEM "2",                           ID_OUTLINEWIDTH_2
+            MENUITEM "4",                           ID_OUTLINEWIDTH_4
+        END
+        POPUP "C&haracters"
+        BEGIN
+            MENUITEM "Alpha",                       ID_CHARATERS_ALPHAS
+            MENUITEM "Numeric",                     ID_CHARATERS_NUMERIC
+            MENUITEM "Alphanumeric",                ID_CHARATERS_ALNUM
+            MENUITEM "Alphanumeric + Punctuation",  ID_CHARATERS_ALPHA_NUM_PUN
+            MENUITEM "ASCII (256)",                 ID_CHARATERS_ASCII
+            MENUITEM "Custom (.txt file)",          ID_CHARACTERS_CUSTOM
+        END
+        POPUP "&Case"
+        BEGIN
+            MENUITEM "&All",                        ID_CASE_ALL
+            MENUITEM "&Upper",                      ID_CASE_UPPERONLY
+            MENUITEM "&Lower",                      ID_CASE_LOWERONLY
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help...",                    ID_HELP_HELP
+        MENUITEM "&About",                      ID_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "GameTutorials.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
